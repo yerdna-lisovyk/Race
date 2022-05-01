@@ -5,22 +5,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c2ddde3-e23e-4899-8ab5-f62c5ca68930" name="Default Changelist" comment="NewProject">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Race/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Race/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Race/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Race/.idea/indexLayout.xml" afterDir="false" />
+    <list default="true" id="5c2ddde3-e23e-4899-8ab5-f62c5ca68930" name="Default Changelist" comment="NewCar">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Race/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Race/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Race/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Race/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/NewBehaviourScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/NewBehaviourScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/AnnotationManager" beforeDir="false" afterPath="$PROJECT_DIR$/Library/AnnotationManager" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB-lock" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB-lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/07/07077fa78a2c4ccd1f420090a0dc81ca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/20/2059cf21e014d14f4b3aa4d50aec6866" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/57/5723228b536359d9792743d94ab40faa" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +15,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://F:/ProjectUnity/Race/Assets/Script.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/ProjectUnity/Race/Assets/Resources.meta" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -84,7 +74,7 @@
       <workItem from="1651395740505" duration="2000" />
       <workItem from="1651396372323" duration="1481000" />
       <workItem from="1651397892954" duration="703000" />
-      <workItem from="1651399802587" duration="1117000" />
+      <workItem from="1651399802587" duration="1250000" />
     </task>
     <task id="LOCAL-00001" summary="NewProject">
       <created>1651398119448</created>
@@ -100,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651398236352</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="NewCar">
+      <created>1651401007075</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651401007075</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +150,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="NewProject" />
-    <option name="LAST_COMMIT_MESSAGE" value="NewProject" />
+    <MESSAGE value="NewCar" />
+    <option name="LAST_COMMIT_MESSAGE" value="NewCar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="517" y="237" key="#Notifications" timestamp="1651398186716">
@@ -168,10 +166,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="229" y="39" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1651397816870" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1651398143875">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1651400965669">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1651398143875" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1651400965669" />
     <state x="644" y="147" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1651398080987">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -184,5 +182,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1651398111258" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1651400938098">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1651400938098" />
   </component>
 </project>
