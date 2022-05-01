@@ -10,15 +10,20 @@ public class Movement : MonoBehaviour
     private float _speed = 0.5f;
     private Camera _camera;
 
+    public void SetSpeed(float speed)
+    {
+        _speed = speed;
+    }
     private void Start()
     {
         _camera = Camera.main;
     }
-
+    
     private void Update()
     {
         if (Input.GetMouseButton(0))
         {
+            _speed = 0.5f;
             SetTargetPosition();
         }
 
