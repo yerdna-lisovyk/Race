@@ -1,7 +1,6 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
+using UnityEngine.EventSystems;
 
 public class Movement : MonoBehaviour
 {
@@ -10,26 +9,27 @@ public class Movement : MonoBehaviour
     private float _speed = 0.5f;
     private Camera _camera;
 
-    public void SetSpeed(float speed)
+    public void SetIsMoving(bool isMoving)
     {
-        _speed = speed;
+        _isMoving = isMoving;
     }
     private void Start()
     {
         _camera = Camera.main;
     }
-    
+
+    public void StartMove()
+    {
+        StartCoroutine(Move());
+    }
     private void Update()
     {
-        if (Input.GetMouseButton(0))
+        if(!EventSystem.current.IsPointerOverGameObject())
         {
-            _speed = 0.5f;
-            SetTargetPosition();
-        }
-
-        if (_isMoving)
-        {
-            Move();
+            if (Input.GetMouseButton(0))
+            {
+                SetTargetPosition();
+            }
         }
     }
 
@@ -40,12 +40,13 @@ public class Movement : MonoBehaviour
         _isMoving = true;
     }
 
-    private void Move()
+    private IEnumerator Move()
     {
-        transform.position = Vector3.MoveTowards(transform.position, _targetPosition, _speed * Time.deltaTime);
-        if (transform.position == _targetPosition)
+        while (transform.position != _targetPosition)
         {
-            _isMoving = false;
+            transform.position = Vector3.MoveTowards(transform.position, _targetPosition, _speed * Time.deltaTime);
+            yield return null;
         }
+        _isMoving = false;
     }
 }

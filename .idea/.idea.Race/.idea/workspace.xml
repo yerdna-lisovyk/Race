@@ -5,16 +5,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c2ddde3-e23e-4899-8ab5-f62c5ca68930" name="Default Changelist" comment="NewCar">
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/pngegg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/Triger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Race/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Race/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="5c2ddde3-e23e-4899-8ab5-f62c5ca68930" name="Default Changelist" comment="Car Movement and Triger Collider">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Race/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Race/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Race/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Race/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Triger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Triger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +86,9 @@
       <workItem from="1651396372323" duration="1481000" />
       <workItem from="1651397892954" duration="703000" />
       <workItem from="1651399802587" duration="2675000" />
-      <workItem from="1651403248505" duration="866000" />
+      <workItem from="1651403248505" duration="1214000" />
+      <workItem from="1651560011382" duration="1578000" />
+      <workItem from="1651600747448" duration="1227000" />
     </task>
     <task id="LOCAL-00001" summary="NewProject">
       <created>1651398119448</created>
@@ -120,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651401182579</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Car Movement and Triger Collider2D">
+      <created>1651404662762</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651404662762</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +179,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="NewProject" />
     <MESSAGE value="NewCar" />
-    <option name="LAST_COMMIT_MESSAGE" value="NewCar" />
+    <MESSAGE value="Car Movement and Triger Collider2D" />
+    <option name="LAST_COMMIT_MESSAGE" value="Car Movement and Triger Collider2D" />
   </component>
   <component name="WindowStateProjectService">
     <state x="517" y="237" key="#Notifications" timestamp="1651398186716">
@@ -189,14 +195,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="229" y="39" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1651397816870" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1651401186736">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1651404687338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1651401186736" />
-    <state x="644" y="147" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1651398080987">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1651404687338" />
+    <state x="644" y="147" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1651404677579">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="644" y="147" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1651398080987" />
+    <state x="644" y="147" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824@0.0.1536.824" timestamp="1651404677579" />
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1651398064890">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -205,9 +211,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1651398111258" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1651400938098">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1651560843403">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1651400938098" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1651560843403" />
   </component>
 </project>

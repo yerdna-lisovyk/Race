@@ -8,6 +8,6 @@ public class Triger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D car)
     {
-        car.GetComponent<Movement>().SetSpeed(0);
+        car.GetComponent<Movement>().SetIsMoving(false);
     }
 }
