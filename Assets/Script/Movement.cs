@@ -40,14 +40,15 @@ public class Movement : MonoBehaviour
     {
         if (_camera is { }) _targetPosition = _camera.ScreenToWorldPoint(Input.mousePosition);
         var position = transform.position;
+
+        _targetPosition.z = position.z;
+        Debug.Log(_targetPosition);
         if (_arrowNow != null)
         {
             Destroy(_arrowNow);
         }
         _arrowNow =  Instantiate(_arrow, position, Quaternion.identity);
-        var p = Vector3.SignedAngle(_targetPosition - position, transform.forward, Vector3.up);
-        Debug.Log(p);
-        _arrowNow.transform.Rotate(new Vector3(0,0,p));
+        _arrowNow.transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, Mathf.Atan2(_targetPosition.y - transform.position.y, _targetPosition.x - transform.position.x) * Mathf.Rad2Deg - 90);
         _isMoving = true;
     }
 
