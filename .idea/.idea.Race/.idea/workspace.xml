@@ -5,8 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c2ddde3-e23e-4899-8ab5-f62c5ca68930" name="Default Changelist" comment="Car Movement and Triger Collider">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Race/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Race/.idea/indexLayout.xml" afterDir="false" />
+    <list default="true" id="5c2ddde3-e23e-4899-8ab5-f62c5ca68930" name="Default Changelist" comment="Fix Car Move">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Race/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Race/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Movement.cs" afterDir="false" />
@@ -88,7 +87,8 @@
       <workItem from="1651399802587" duration="2675000" />
       <workItem from="1651403248505" duration="1214000" />
       <workItem from="1651560011382" duration="1578000" />
-      <workItem from="1651600747448" duration="1227000" />
+      <workItem from="1651600747448" duration="2278000" />
+      <workItem from="1651736529032" duration="3158000" />
     </task>
     <task id="LOCAL-00001" summary="NewProject">
       <created>1651398119448</created>
@@ -125,7 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651404662762</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fix Car Move">
+      <created>1651602064647</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651602064647</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix Car Move">
+      <created>1651602320433</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651602320433</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +194,8 @@
     <MESSAGE value="NewProject" />
     <MESSAGE value="NewCar" />
     <MESSAGE value="Car Movement and Triger Collider2D" />
-    <option name="LAST_COMMIT_MESSAGE" value="Car Movement and Triger Collider2D" />
+    <MESSAGE value="Fix Car Move" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Car Move" />
   </component>
   <component name="WindowStateProjectService">
     <state x="517" y="237" key="#Notifications" timestamp="1651398186716">
@@ -195,10 +210,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="229" y="39" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1651397816870" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1651404687338">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1651602323893">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1651404687338" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1651602323893" />
     <state x="644" y="147" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1651404677579">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -211,9 +226,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1651398111258" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1651560843403">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1651739530984">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1651560843403" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1651739530984" />
   </component>
 </project>

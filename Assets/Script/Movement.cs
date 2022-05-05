@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using System.Collections;
 using UnityEngine.EventSystems;
@@ -8,6 +9,9 @@ public class Movement : MonoBehaviour
     private Vector3 _targetPosition;
     private float _speed = 0.5f;
     private Camera _camera;
+    private GameObject _arrowNow=null;
+        
+    [SerializeField] private GameObject _arrow = null;
 
     public void SetIsMoving(bool isMoving)
     {
@@ -16,6 +20,7 @@ public class Movement : MonoBehaviour
     private void Start()
     {
         _camera = Camera.main;
+
     }
 
     public void StartMove()
@@ -34,7 +39,15 @@ public class Movement : MonoBehaviour
     private void SetTargetPosition()
     {
         if (_camera is { }) _targetPosition = _camera.ScreenToWorldPoint(Input.mousePosition);
-        _targetPosition.z = transform.position.z;
+        var position = transform.position;
+        if (_arrowNow != null)
+        {
+            Destroy(_arrowNow);
+        }
+        _arrowNow =  Instantiate(_arrow, position, Quaternion.identity);
+        var p = Vector3.SignedAngle(_targetPosition - position, transform.forward, Vector3.up);
+        Debug.Log(p);
+        _arrowNow.transform.Rotate(new Vector3(0,0,p));
         _isMoving = true;
     }
 

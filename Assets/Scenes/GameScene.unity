@@ -303,7 +303,7 @@ GameObject:
   - component: {fileID: 336693322}
   - component: {fileID: 336693323}
   m_Layer: 0
-  m_Name: pngegg_7
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -630,7 +630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -747,7 +747,7 @@ GameObject:
   - component: {fileID: 1530701645}
   - component: {fileID: 1530701646}
   m_Layer: 0
-  m_Name: car
+  m_Name: Car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -765,6 +765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc61326d125c58c43b0ce78d0b794d1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _arrow: {fileID: 7852472591110515494, guid: 36adf5ac123e552419f57368814968c0, type: 3}
 --- !u!212 &1530701643
 SpriteRenderer:
   m_ObjectHideFlags: 0
