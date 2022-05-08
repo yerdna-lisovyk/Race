@@ -54,6 +54,7 @@
   <ItemGroup>
      <Compile Include="Assets\Script\Triger.cs" />
      <Compile Include="Assets\Script\Movement.cs" />
+     <Compile Include="Assets\Script\CameraFollowing2D.cs" />
  <Reference Include="UnityEngine">
  <HintPath>F:/HUb/2020.3.25f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

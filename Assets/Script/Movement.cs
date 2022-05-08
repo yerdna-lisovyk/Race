@@ -25,6 +25,7 @@ public class Movement : MonoBehaviour
 
     public void StartMove()
     {
+        Destroy(_arrowNow);
         StartCoroutine(Move());
     }
     private void Update()
@@ -42,7 +43,6 @@ public class Movement : MonoBehaviour
         var position = transform.position;
 
         _targetPosition.z = position.z;
-        Debug.Log(_targetPosition);
         if (_arrowNow != null)
         {
             Destroy(_arrowNow);
@@ -54,7 +54,7 @@ public class Movement : MonoBehaviour
 
     private IEnumerator Move()
     {
-        while (transform.position != _targetPosition)
+        while (transform.position != _targetPosition && _isMoving !=false)
         {
             transform.position = Vector3.MoveTowards(transform.position, _targetPosition, _speed * Time.deltaTime);
             yield return null;
